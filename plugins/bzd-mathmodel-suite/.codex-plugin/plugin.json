@@ -1,6 +1,6 @@
 {
   "name": "bzd-mathmodel-suite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "数学建模竞赛一站式技能包：一次安装即可获得全流程与 BZD 系列全部技能——赛题逐句翻译(bzd-problem-translator)、建模思路(bzd-modeling-ideas)、问题重述(bzd-problem-restatement)、赛题分析与建模设计(analysis-modeling)、编程求解与冻结(coding-visual)、论文撰写(paper-writing)、图表选型(model-figure-selector)、科研绘图模板库(mathmodel-figure-templates)、模型字典(bzd-model-dictionary)、以及摘要/假设/求解/符号/格式/文献附录自查与整卷评审(bzd-review-paper)、AI工具使用披露、高校国奖查询。所有 $技能 交叉引用在同一插件内闭环，无跨插件依赖。推荐只安装本插件即可覆盖国赛全流程。",
   "author": {
     "name": "Yjj0333",
