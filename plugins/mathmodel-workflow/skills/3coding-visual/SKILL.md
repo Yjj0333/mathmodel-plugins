@@ -24,7 +24,7 @@ description: "数学建模编程实现、求解器组织、模型验证、运行
 开始编码前完整读取：
 
 - [工程目录与运行合同](references/project-layout-contract.md)：目录、模块职责、run、promote、图表、导出和旧项目兼容；
-- `../_references/math_modeling_norms.md` 中的题型防错、代码实现与图表小节；
+- `references/math_modeling_norms.md` 中的题型防错、代码实现与图表小节；
 - `reports/ANALYSIS_MODELING_REPORT.md`、`plan.md`、题面和真实附件。
 
 求解冻结后、创建最终绘图脚本前完整读取：

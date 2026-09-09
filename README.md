@@ -8,7 +8,8 @@
 2. **来源** 填：`https://github.com/Yjj0333/mathmodel-plugins`（或 `git@github.com:Yjj0333/mathmodel-plugins.git`）；
 3. **Git 引用** 选 **主分支**；
 4. **稀疏路径** 留空即可安装整个市场（仓库根目录自带 `.agents/plugins/marketplace.json`）；也可以填 `plugins/<插件名>` 只加载单个插件；
-5. 在市场中按需安装下列插件，安装后用 `$技能名` 直接调用。
+5. 在市场中按需安装插件。**注意：技能只在安装后「新开的会话」里生效**，旧会话不会注入；
+   调用方式是输入 `@` 选择插件或其中的技能（如 @BZD题意逐句翻译），也可以直接描述任务让 ChatGPT 自动匹配技能。
 
 ## 推荐安装：BZD 数模全家桶
 

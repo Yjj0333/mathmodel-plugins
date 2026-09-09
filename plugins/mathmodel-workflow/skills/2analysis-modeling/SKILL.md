@@ -22,7 +22,7 @@ description: "数学建模赛题分析与建模设计阶段。用于读取题面
 - `plan.md`、`todo.md`；
 - 已有 `reports/ANALYSIS_MODELING_REPORT.md`；
 - 数据字段说明、已有代码和结果记录；
-- `../_references/math_modeling_norms.md` 中的赛题识别、模型建立和题型防错小节。
+- `references/math_modeling_norms.md` 中的赛题识别、模型建立和题型防错小节。
 
 若项目内存在 `../5writing/SKILL.md`，在确定论文交接结构前读取其当前比赛模板约定。不要用记忆中的旧模板覆盖项目内合同。
 
