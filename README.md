@@ -13,13 +13,13 @@
 
 ## 推荐安装：BZD 数模全家桶
 
-不想逐个挑插件？直接安装 **`bzd-mathmodel-suite`（BZD 数模全家桶）**：它把全部 19 个技能打包在一个插件里（含全流程三阶段、图表选型与模板库、全部 BZD 自查评审技能），所有 `$技能` 交叉引用在同一插件内闭环，无跨插件依赖，安装一次即可用 `$bzd-review-paper`、`$2analysis-modeling` 等任意技能名调用。
+不想逐个挑插件？直接安装 **`bzd-mathmodel-suite`（BZD 数模全家桶）**：它把全部 19 个技能打包在一个插件里（含全流程三阶段、图表选型与模板库、全部 BZD 自查评审技能），所有 `$技能` 交叉引用在同一插件内闭环，无跨插件依赖，安装一次即可用 `$bzd-review-paper`、`$analysis-modeling` 等任意技能名调用。
 
 ## 插件列表
 
 | 显示名 | 插件名 | 功能 | 依赖建议 |
 |---|---|---|---|
-| 数模全流程工作流 | `mathmodel-workflow` | 赛题分析、编程求解冻结、论文撰写三阶段工作流，含图表选型子技能 | 安装后建议同时安装 BZD数模字典 插件（$bzd-model-dictionary）以支持 2analysis-modeling 的模型核验。 |
+| 数模全流程工作流 | `mathmodel-workflow` | 赛题分析、编程求解冻结、论文撰写三阶段工作流，含图表选型子技能 | 安装后建议同时安装 BZD数模字典 插件（$bzd-model-dictionary）以支持 analysis-modeling 的模型核验。 |
 | BZD 题意逐句翻译 | `bzd-problem-translator` | 逐句拆解赛题，生成Mermaid跨问流程图与Markdown报告 | — |
 | BZD 建模思路 | `bzd-modeling-ideas` | 生成贯穿全文的整体建模思路、多模型比较与选型依据 | — |
 | BZD 问题重述 | `bzd-problem-restatement` | 根据赛题生成问题重述，或对照原题检查已有重述 | — |
@@ -47,7 +47,7 @@ plugins/<name>/
 
 ## 跨插件依赖
 
-- `mathmodel-workflow` 的 `$2analysis-modeling` 会调用 `$bzd-model-dictionary`（BZD数模字典）核验候选模型；
+- `mathmodel-workflow` 的 `$analysis-modeling` 会调用 `$bzd-model-dictionary`（BZD数模字典）核验候选模型；
 - `$bzd-review-paper` 会导入 `$bzd-paper-format-checker` 的格式审查结果；
 - `$bzd-cumcm-school-awards` 可选调用 `$bzd-review-paper` 复盘往年论文。
 
@@ -58,4 +58,4 @@ plugins/<name>/
 1. **添加市场 ≠ 安装插件**：添加插件市场只是登记了市场来源，还需要在「插件」页面进入 **BZD 数学建模技能市场**，对需要的插件逐个点击 **安装/添加**；已安装的插件才会出现在右侧已安装列表里。
 2. **manifest 有改动后需要重新添加市场**：如果之前添加过旧版本，先在市场中删除该市场 → 重新按上面步骤添加（客户端有缓存，右上角 ↻ 刷新也可尝试）。
 3. **新会话测试**：安装后新开一个会话，输入 `$mathmodel-workflow` 或 `$bzd-review-paper` 调用；`$技能名` 引用只对已安装插件生效。
-4. **跨插件依赖**：`$bzd-review-paper` 依赖 `$bzd-paper-format-checker`、`$2analysis-modeling` 依赖 `$bzd-model-dictionary`，相关插件需一起安装。
+4. **跨插件依赖**：`$bzd-review-paper` 依赖 `$bzd-paper-format-checker`、`$analysis-modeling` 依赖 `$bzd-model-dictionary`，相关插件需一起安装。

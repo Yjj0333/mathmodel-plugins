@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import gzip
 import json
 import re
 from pathlib import Path
@@ -19,7 +20,9 @@ def normalize(value: object) -> str:
 
 
 def load_dictionary() -> dict:
-    with DICTIONARY.open(encoding="utf-8-sig") as handle:
+    path = DICTIONARY if DICTIONARY.exists() else DICTIONARY.with_suffix(".json.gz")
+    opener = gzip.open if path.suffix == ".gz" else path.open
+    with opener(path, "rt", encoding="utf-8-sig") if path.suffix == ".gz" else path.open(encoding="utf-8-sig") as handle:
         root = json.load(handle)
     if not isinstance(root, dict) or not isinstance(root.get("数据"), list):
         raise ValueError("Invalid model dictionary structure")

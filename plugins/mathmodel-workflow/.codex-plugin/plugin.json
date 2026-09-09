@@ -1,7 +1,7 @@
 {
   "name": "mathmodel-workflow",
   "version": "1.0.0",
-  "description": "数学建模竞赛全流程工作流插件：2analysis-modeling 负责读取题面附件、拆解子问题、审计数据与假设并生成 ANALYSIS_MODELING_REPORT.md；3coding-visual 负责可复现工程实现、模型验证、权威结果冻结与一图一脚本的最终论文图；5writing 负责按 Typst/LaTeX 双引擎模板组织章节、插入冻结结果并导出论文。捆绑子技能 model-figure-selector，在结果冻结后按论文证据选择并生成学术图表。三个阶段通过 reports/ 与 results/ 交接合同衔接。",
+  "description": "数学建模竞赛全流程工作流插件：analysis-modeling 负责读取题面附件、拆解子问题、审计数据与假设并生成 ANALYSIS_MODELING_REPORT.md；coding-visual 负责可复现工程实现、模型验证、权威结果冻结与一图一脚本的最终论文图；paper-writing 负责按 Typst/LaTeX 双引擎模板组织章节、插入冻结结果并导出论文。捆绑子技能 model-figure-selector，在结果冻结后按论文证据选择并生成学术图表。三个阶段通过 reports/ 与 results/ 交接合同衔接。",
   "author": {
     "name": "Yjj0333",
     "url": "https://github.com/Yjj0333"
@@ -22,7 +22,7 @@
   "interface": {
     "displayName": "数模全流程工作流",
     "shortDescription": "赛题分析、编程求解冻结、论文撰写三阶段工作流，含图表选型子技能",
-    "longDescription": "数学建模竞赛全流程工作流插件：2analysis-modeling 负责读取题面附件、拆解子问题、审计数据与假设并生成 ANALYSIS_MODELING_REPORT.md；3coding-visual 负责可复现工程实现、模型验证、权威结果冻结与一图一脚本的最终论文图；5writing 负责按 Typst/LaTeX 双引擎模板组织章节、插入冻结结果并导出论文。捆绑子技能 model-figure-selector，在结果冻结后按论文证据选择并生成学术图表。三个阶段通过 reports/ 与 results/ 交接合同衔接。",
+    "longDescription": "数学建模竞赛全流程工作流插件：analysis-modeling 负责读取题面附件、拆解子问题、审计数据与假设并生成 ANALYSIS_MODELING_REPORT.md；coding-visual 负责可复现工程实现、模型验证、权威结果冻结与一图一脚本的最终论文图；paper-writing 负责按 Typst/LaTeX 双引擎模板组织章节、插入冻结结果并导出论文。捆绑子技能 model-figure-selector，在结果冻结后按论文证据选择并生成学术图表。三个阶段通过 reports/ 与 results/ 交接合同衔接。",
     "developerName": "Yjj0333",
     "category": "Education & Research",
     "capabilities": [
@@ -32,9 +32,9 @@
     ],
     "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
     "defaultPrompt": [
-      "使用 $2analysis-modeling 分析赛题与附件，生成建模设计与论文交接报告。",
-      "使用 $3coding-visual 实现模型求解，验证并冻结权威 run，生成最终论文图。",
-      "使用 $5writing 按国赛模板撰写论文，插入冻结结果与最终图。"
+      "使用 $analysis-modeling 分析赛题与附件，生成建模设计与论文交接报告。",
+      "使用 $coding-visual 实现模型求解，验证并冻结权威 run，生成最终论文图。",
+      "使用 $paper-writing 按国赛模板撰写论文，插入冻结结果与最终图。"
     ],
     "brandColor": "#1F6FEB",
     "screenshots": []
