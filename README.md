@@ -47,3 +47,10 @@ plugins/<name>/
 - `$bzd-cumcm-school-awards` 可选调用 `$bzd-review-paper` 复盘往年论文。
 
 建议一次性安装全部插件，保证 `$技能` 交叉引用可用。
+
+## 安装后用不了？排查步骤
+
+1. **添加市场 ≠ 安装插件**：添加插件市场只是登记了市场来源，还需要在「插件」页面进入 **BZD 数学建模技能市场**，对需要的插件逐个点击 **安装/添加**；已安装的插件才会出现在右侧已安装列表里。
+2. **manifest 有改动后需要重新添加市场**：如果之前添加过旧版本，先在市场中删除该市场 → 重新按上面步骤添加（客户端有缓存，右上角 ↻ 刷新也可尝试）。
+3. **新会话测试**：安装后新开一个会话，输入 `$mathmodel-workflow` 或 `$bzd-review-paper` 调用；`$技能名` 引用只对已安装插件生效。
+4. **跨插件依赖**：`$bzd-review-paper` 依赖 `$bzd-paper-format-checker`、`$2analysis-modeling` 依赖 `$bzd-model-dictionary`，相关插件需一起安装。
