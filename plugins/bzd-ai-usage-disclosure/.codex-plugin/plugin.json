@@ -1,0 +1,37 @@
+{
+  "name": "bzd-ai-usage-disclosure",
+  "version": "1.0.0",
+  "description": "Generate or review mathematical-modeling competition AI tool usage statements and the anonymous AI工具使用详情.pdf. Use when users provide real AI usage records, or when checking a paper, statement, details PDF, code, and AI records for completeness, anonymity, and consistency.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "ai-usage",
+    "disclosure",
+    "compliance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD AI工具使用披露",
+    "shortDescription": "生成并检查数学建模竞赛AI工具使用声明与匿名详情材料",
+    "longDescription": "Generate or review mathematical-modeling competition AI tool usage statements and the anonymous AI工具使用详情.pdf. Use when users provide real AI usage records, or when checking a paper, statement, details PDF, code, and AI records for completeness, anonymity, and consistency.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-ai-usage-disclosure 根据真实AI使用记录生成或检查AI工具使用声明与详情材料。"
+    ],
+    "brandColor": "#2E5F8A",
+    "screenshots": []
+  }
+}

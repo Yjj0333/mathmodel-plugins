@@ -1,0 +1,36 @@
+{
+  "name": "bzd-modeling-ideas",
+  "version": "1.0.0",
+  "description": "Generate a coherent, whole-paper mathematical modeling solution framework from a complete contest problem. Use after the user supplies a CUMCM or other modeling problem and asks for modeling ideas, an overall solution plan, question-by-question analysis, candidate-model comparison, model-selection reasons, innovations, validation, or cross-question linkage. For every question, explain the task and mathematical essence, compare multiple feasible models in tables, recommend a route with explicit reasons, and keep all questions connected through shared data, variables, parameters, constraints, and validation.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "model-selection",
+    "solution-plan"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD 建模思路",
+    "shortDescription": "生成贯穿全文的整体建模思路、多模型比较与选型依据",
+    "longDescription": "Generate a coherent, whole-paper mathematical modeling solution framework from a complete contest problem. Use after the user supplies a CUMCM or other modeling problem and asks for modeling ideas, an overall solution plan, question-by-question analysis, candidate-model comparison, model-selection reasons, innovations, validation, or cross-question linkage. For every question, explain the task and mathematical essence, compare multiple feasible models in tables, recommend a route with explicit reasons, and keep all questions connected through shared data, variables, parameters, constraints, and validation.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-modeling-ideas 根据我提供的完整赛题，生成具有大局观和跨问题联动的整体求解思路，并为每一问比较多个可行模型、说明选型理由和创新方向。"
+    ],
+    "brandColor": "#1E66F5",
+    "screenshots": []
+  }
+}

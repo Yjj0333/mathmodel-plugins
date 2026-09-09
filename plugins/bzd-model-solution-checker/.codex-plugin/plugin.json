@@ -1,0 +1,37 @@
+{
+  "name": "bzd-model-solution-checker",
+  "version": "1.0.0",
+  "description": "Review the model establishment, numerical solution, result analysis, model validation, and sensitivity or robustness sections of a mathematical-modeling paper against the complete problem. Use for core-model-section diagnosis, not automatic full-paper scoring or unsupported recomputation.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "review",
+    "solution",
+    "sensitivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD 模型建立求解自查",
+    "shortDescription": "检查模型建立、算法求解、结果检验与灵敏度分析闭环",
+    "longDescription": "Review the model establishment, numerical solution, result analysis, model validation, and sensitivity or robustness sections of a mathematical-modeling paper against the complete problem. Use for core-model-section diagnosis, not automatic full-paper scoring or unsupported recomputation.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-model-solution-checker 对照完整赛题检查论文的模型建立、求解、模型检验和灵敏度分析板块。"
+    ],
+    "brandColor": "#1E66F5",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "bzd-problem-analysis-checker",
+  "version": "1.0.0",
+  "description": "Review a Chinese mathematical-modeling problem-analysis section against the original problem, checking task classification, data reasoning, cross-problem linkage, model-choice rationale, validation planning, chapter boundaries, and the overall solution framework. Use for diagnosis, not automatic full rewriting.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "review",
+    "problem-analysis"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD 问题分析自查",
+    "shortDescription": "对照赛题检查问题分析的建模逻辑、联动和章节边界",
+    "longDescription": "Review a Chinese mathematical-modeling problem-analysis section against the original problem, checking task classification, data reasoning, cross-problem linkage, model-choice rationale, validation planning, chapter boundaries, and the overall solution framework. Use for diagnosis, not automatic full rewriting.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-problem-analysis-checker 对照完整赛题检查我写的问题分析，并列出问题与修改优先级。"
+    ],
+    "brandColor": "#E47B2B",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "bzd-symbol-notation-checker",
+  "version": "1.0.0",
+  "description": "Review the symbol-notation section of a mathematical-modeling paper against the full paper. Check table coverage, symbol meanings, units, overloading, case and subscript consistency, first-use definitions, formula usage, and visible table formatting. Use for symbol-table diagnosis, not general paper review.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "review",
+    "notation"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD 符号说明自查",
+    "shortDescription": "核对论文符号表、正文公式、单位、下标与排版的一致性",
+    "longDescription": "Review the symbol-notation section of a mathematical-modeling paper against the full paper. Check table coverage, symbol meanings, units, overloading, case and subscript consistency, first-use definitions, formula usage, and visible table formatting. Use for symbol-table diagnosis, not general paper review.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-symbol-notation-checker 检查这篇数学建模论文的符号说明表是否合理，并对照全文指出遗漏、冲突和单位问题。"
+    ],
+    "brandColor": "#1E66F5",
+    "screenshots": []
+  }
+}

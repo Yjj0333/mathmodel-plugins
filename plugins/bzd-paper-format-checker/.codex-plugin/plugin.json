@@ -1,0 +1,37 @@
+{
+  "name": "bzd-paper-format-checker",
+  "version": "1.0.0",
+  "description": "Review a complete mathematical-modeling competition paper with an atomic checklist covering abstract readability, page structure, typography, headings, pagination, figures, tables, equations, anonymity, metadata, visual balance, and page allocation. Return the review in chat or Markdown by default, and provide the bundled single-sheet checklist when the user requests a reusable form. Use when the user provides a PDF or Word paper and asks for a full-paper format and writing-compliance audit; do not replace technical model correctness review.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "review",
+    "format",
+    "typography"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD 论文格式自查",
+    "shortDescription": "逐项检查摘要、标题密度、图表重复、模型可读性与全文排版",
+    "longDescription": "Review a complete mathematical-modeling competition paper with an atomic checklist covering abstract readability, page structure, typography, headings, pagination, figures, tables, equations, anonymity, metadata, visual balance, and page allocation. Return the review in chat or Markdown by default, and provide the bundled single-sheet checklist when the user requests a reusable form. Use when the user provides a PDF or Word paper and asks for a full-paper format and writing-compliance audit; do not replace technical model correctness review.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-paper-format-checker 逐条检查这篇数学建模论文，并直接输出规范的 Markdown 报告。核查摘要、标题密度、图表重复、模型正文符号定义、优化模型集中陈述、参考文献与匿名性；每个结论必须有页码或可观察证据。按原子项计算唯一的15分制规范分。用户要求自填表时，提供 assets/数学建模论文自查表.xlsx，不重新生成其他版本。若为高教社杯国赛，未发现目录即满足，严禁建议添加目录。"
+    ],
+    "brandColor": "#1E66F5",
+    "screenshots": []
+  }
+}

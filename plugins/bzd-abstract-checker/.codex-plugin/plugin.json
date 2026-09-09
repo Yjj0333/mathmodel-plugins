@@ -1,0 +1,36 @@
+{
+  "name": "bzd-abstract-checker",
+  "version": "1.0.0",
+  "description": "Review a user-provided Chinese mathematical-modeling abstract without requiring the problem statement or full paper, identify concrete writing defects, and prioritize revisions. Use when the user asks to check, diagnose, or improve a modeling-paper abstract; do not claim coverage or factual consistency that cannot be verified without the problem or paper.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "review",
+    "abstract"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD 摘要自查",
+    "shortDescription": "仅输入摘要，诊断数学建模摘要的独立性与具体问题",
+    "longDescription": "Review a user-provided Chinese mathematical-modeling abstract without requiring the problem statement or full paper, identify concrete writing defects, and prioritize revisions. Use when the user asks to check, diagnose, or improve a modeling-paper abstract; do not claim coverage or factual consistency that cannot be verified without the problem or paper.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-abstract-checker 检查以下数学建模论文摘要，指出具体问题和优先修改方向。"
+    ],
+    "brandColor": "#245B86",
+    "screenshots": []
+  }
+}

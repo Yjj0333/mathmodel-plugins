@@ -1,0 +1,218 @@
+{
+  "name": "bzd-mathmodel",
+  "interface": {
+    "displayName": "BZD 数学建模技能市场"
+  },
+  "plugins": [
+    {
+      "name": "mathmodel-workflow",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mathmodel-workflow"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "数模全流程工作流"
+      }
+    },
+    {
+      "name": "bzd-problem-translator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-problem-translator"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 题意逐句翻译"
+      }
+    },
+    {
+      "name": "bzd-modeling-ideas",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-modeling-ideas"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 建模思路"
+      }
+    },
+    {
+      "name": "bzd-problem-restatement",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-problem-restatement"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 问题重述"
+      }
+    },
+    {
+      "name": "bzd-problem-analysis-checker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-problem-analysis-checker"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 问题分析自查"
+      }
+    },
+    {
+      "name": "bzd-model-assumption-checker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-model-assumption-checker"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 模型假设自查"
+      }
+    },
+    {
+      "name": "bzd-model-solution-checker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-model-solution-checker"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 模型建立求解自查"
+      }
+    },
+    {
+      "name": "bzd-symbol-notation-checker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-symbol-notation-checker"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 符号说明自查"
+      }
+    },
+    {
+      "name": "bzd-abstract-checker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-abstract-checker"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 摘要自查"
+      }
+    },
+    {
+      "name": "bzd-paper-format-checker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-paper-format-checker"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 论文格式自查"
+      }
+    },
+    {
+      "name": "bzd-review-paper",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-review-paper"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 论文评审"
+      }
+    },
+    {
+      "name": "bzd-ai-usage-disclosure",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-ai-usage-disclosure"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD AI工具使用披露"
+      }
+    },
+    {
+      "name": "bzd-cumcm-school-awards",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-cumcm-school-awards"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 国赛高校国奖查询"
+      }
+    },
+    {
+      "name": "bzd-reference-appendix-checker",
+      "source": {
+        "source": "local",
+        "path": "./plugins/bzd-reference-appendix-checker"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "BZD 参考文献与附录自查"
+      }
+    },
+    {
+      "name": "mathmodel-figure-templates",
+      "source": {
+        "source": "local",
+        "path": "./plugins/mathmodel-figure-templates"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Education & Research",
+      "interface": {
+        "displayName": "科研绘图模板库"
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "bzd-problem-restatement",
+  "version": "1.0.0",
+  "description": "Generate a compliant Chinese mathematical-modeling problem-restatement chapter from a complete problem statement, or review a user's restatement against the original problem. Covers research background, problem review, and research overview; does not perform the separate problem-analysis chapter.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "problem-restatement"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD 问题重述",
+    "shortDescription": "根据赛题生成问题重述，或对照原题检查已有重述",
+    "longDescription": "Generate a compliant Chinese mathematical-modeling problem-restatement chapter from a complete problem statement, or review a user's restatement against the original problem. Covers research background, problem review, and research overview; does not perform the separate problem-analysis chapter.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-problem-restatement 根据完整赛题生成合规的问题重述，或对照原题检查我写的问题重述。"
+    ],
+    "brandColor": "#245B86",
+    "screenshots": []
+  }
+}

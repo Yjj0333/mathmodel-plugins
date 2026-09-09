@@ -1,0 +1,36 @@
+{
+  "name": "bzd-problem-translator",
+  "version": "1.0.0",
+  "description": "Translate a complete mathematical modeling contest problem sentence by sentence into precise modeling language, preserve every substantive condition and definition, expose hidden constraints, draw a mandatory Mermaid cross-question flowchart, audit omissions, and deliver one easy-to-open Markdown report. Use whenever a user supplies a CUMCM or other modeling problem and asks to interpret, translate, unpack, read closely, identify requirements, or avoid missing details before modeling.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "problem-interpretation",
+    "mermaid"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD 题意逐句翻译",
+    "shortDescription": "逐句拆解赛题，生成Mermaid跨问流程图与Markdown报告",
+    "longDescription": "Translate a complete mathematical modeling contest problem sentence by sentence into precise modeling language, preserve every substantive condition and definition, expose hidden constraints, draw a mandatory Mermaid cross-question flowchart, audit omissions, and deliver one easy-to-open Markdown report. Use whenever a user supplies a CUMCM or other modeling problem and asks to interpret, translate, unpack, read closely, identify requirements, or avoid missing details before modeling.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-problem-translator 从实际题目标题开始逐句拆解赛题，跳过前置竞赛与格式提示，强制生成覆盖所有问题的Mermaid跨问题流程图，并输出一个Markdown文件。"
+    ],
+    "brandColor": "#245B86",
+    "screenshots": []
+  }
+}

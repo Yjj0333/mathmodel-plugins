@@ -1,0 +1,37 @@
+{
+  "name": "bzd-review-paper",
+  "version": "1.0.0",
+  "description": "Review mathematical modeling competition papers from a complete contest problem and a team's paper. Independently construct a problem-specific 100-point rubric, optionally import a prior bzd-paper-format-checker result, score every modeling/solution/result block by itemized 1-3 point deductions under a 90%-of-weight ceiling, map the -10-to-10 format score deterministically to a 0-to-1 quality coefficient, estimate contest percentile, and provide concise Chinese judge feedback. Use for CUMCM, MCM/ICM, MathorCup, Huashu Cup, postgraduate modeling contests, and similar paper evaluation requests.",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "CUMCM",
+    "review",
+    "scoring",
+    "percentile"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BZD 论文评审",
+    "shortDescription": "区分国赛与小型竞赛，生成专属细则并评审得分位次",
+    "longDescription": "Review mathematical modeling competition papers from a complete contest problem and a team's paper. Independently construct a problem-specific 100-point rubric, optionally import a prior bzd-paper-format-checker result, score every modeling/solution/result block by itemized 1-3 point deductions under a 90%-of-weight ceiling, map the -10-to-10 format score deterministically to a 0-to-1 quality coefficient, estimate contest percentile, and provide concise Chinese judge feedback. Use for CUMCM, MCM/ICM, MathorCup, Huashu Cup, postgraduate modeling contests, and similar paper evaluation requests.",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $bzd-review-paper。先确认是否为高教社杯国赛；如已有同版本的 $bzd-paper-format-checker 报告，自动接入其格式分与证据，将-10到10分线性映射为0到1.00的格式质量系数。根据赛题制定百分制细则，把每问拆成模型建立、模型求解、结果与回答；每个板块先按90%封顶，再针对评分细则逐条扣1、2或3分，扣至0分为止；与题目或冻结答案根本不一致的板块归零。最后输出HTML报告和对应竞赛规模的位次估计。"
+    ],
+    "brandColor": "#7C3AED",
+    "screenshots": []
+  }
+}

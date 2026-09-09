@@ -1,0 +1,39 @@
+{
+  "name": "mathmodel-figure-templates",
+  "version": "1.0.0",
+  "description": "数学建模/科研绘图模板库：内置 SHAP蜂群柱状图、配对云雨图、交叉验证ROC、泰勒图、相关矩阵组合图、预测真实值边缘分布图、TPE调参3D曲面、下三角相关矩阵半边小提琴图、分组环形热图、城市公园降温组合图、Nature和弦图等模板，每个模板提供可直接运行的 Python 脚本与预览图，用于复现论文级科研图表。",
+  "author": {
+    "name": "Yjj0333",
+    "url": "https://github.com/Yjj0333"
+  },
+  "homepage": "https://github.com/Yjj0333/mathmodel-plugins",
+  "repository": "https://github.com/Yjj0333/mathmodel-plugins",
+  "keywords": [
+    "mathematical-modeling",
+    "visualization",
+    "shap",
+    "roc",
+    "taylor-diagram",
+    "chord-diagram",
+    "raincloud"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "科研绘图模板库",
+    "shortDescription": "内置10+科研绘图模板（SHAP、云雨图、ROC、泰勒图、和弦图等）的即用Python脚本",
+    "longDescription": "数学建模/科研绘图模板库：内置 SHAP蜂群柱状图、配对云雨图、交叉验证ROC、泰勒图、相关矩阵组合图、预测真实值边缘分布图、TPE调参3D曲面、下三角相关矩阵半边小提琴图、分组环形热图、城市公园降温组合图、Nature和弦图等模板，每个模板提供可直接运行的 Python 脚本与预览图，用于复现论文级科研图表。",
+    "developerName": "Yjj0333",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/Yjj0333/mathmodel-plugins",
+    "defaultPrompt": [
+      "使用 $mathmodel-figure-templates 用配对云雨图和泰勒图展示我的模型结果。"
+    ],
+    "brandColor": "#B45309",
+    "screenshots": []
+  }
+}
